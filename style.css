@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 html {
@@ -13,6 +14,7 @@ html {
 header {
     display: flex;
     flex-direction: row-reverse;
+    font-size: 1.4rem;
 }
 
 .main-google-apps {
