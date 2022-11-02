@@ -10,13 +10,30 @@ html {
 }
 
 /*HEADER*/
-/*
+
 header {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     font-size: 1.4rem;
+    margin: 8px;
+    align-items: center;
 }
 
+.header-box {
+    padding-left: 12px;
+}
+
+.header-box a {
+    padding: 8px;
+}
+
+.header-img {
+    border-radius: 50%;
+    width: 40px;
+    padding: 8px;
+}
+
+/*
 .main-google-apps {
     display: inline-block;
 }
@@ -33,9 +50,4 @@ header {
     display: inherit;
 }
 
-.header-img {
-    border-radius: 50%;
-    width: 32px;
-    padding: 4px;
-}
 */
