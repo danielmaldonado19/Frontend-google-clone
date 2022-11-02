@@ -10,7 +10,7 @@ html {
 }
 
 /*HEADER*/
-
+/*
 header {
     display: flex;
     flex-direction: row-reverse;
@@ -36,4 +36,6 @@ header {
 .header-img {
     border-radius: 50%;
     width: 32px;
+    padding: 4px;
 }
+*/
