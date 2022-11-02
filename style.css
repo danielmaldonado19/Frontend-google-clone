@@ -7,3 +7,31 @@
 html {
     font-size: 62.5%;
 }
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-google-apps {
+    display: inline-block;
+}
+
+.main-google-apps li {
+    display: inherit;
+}
+
+.menu-and-profile {
+    display: inline-block;
+}
+
+.menu-and-profile li {
+    display: inherit;
+}
+
+.header-img {
+    border-radius: 50%;
+    width: 32px;
+}
