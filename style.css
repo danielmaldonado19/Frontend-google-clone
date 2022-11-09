@@ -9,6 +9,11 @@ html {
     font-size: 62.5%;
 }
 
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
 /*HEADER*/
 
 header {
@@ -26,7 +31,8 @@ header {
 .header-box a {
     padding: 4px;
     font-size: 0.9em;
-    
+    text-decoration: none;
+
 }
 
 .header-img {
@@ -35,21 +41,34 @@ header {
     padding: 4px;
 }
 
-/*
-.main-google-apps {
-    display: inline-block;
+/*MAIN*/
+
+main{
+    display: flex;
+    flex-direction: column;
 }
 
-.main-google-apps li {
-    display: inherit;
+.logo{
+    width: 272px;
 }
 
-.menu-and-profile {
-    display: inline-block;
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-direction: column;
 }
 
-.menu-and-profile li {
-    display: inherit;
+.footer-box {
+    display: flex;
+    justify-content: space-between;
 }
 
-*/
+.country{
+    font-size: 1.6em;
+}
+
+.footer-box a {
+    text-decoration: none;
+    font-size: 1.6em;
+}
