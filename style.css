@@ -20,17 +20,19 @@ header {
 }
 
 .header-box {
-    padding-left: 12px;
+    padding-left: 8px;
 }
 
 .header-box a {
-    padding: 8px;
+    padding: 4px;
+    font-size: 0.9em;
+    
 }
 
 .header-img {
     border-radius: 50%;
     width: 40px;
-    padding: 8px;
+    padding: 4px;
 }
 
 /*
