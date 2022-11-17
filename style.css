@@ -60,7 +60,7 @@ picture{
 
 .form{
     display: inline-block;
-    width: auto;
+    width: 443px;
 }
 
 /*.search-field{
@@ -74,11 +74,20 @@ picture{
     border: 1px solid #dfe1e5;
 }*/
 
+.search-engine-space{
+    margin: 0 auto;
+}
+
 .search-engine{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    /*border-color: #dfe1e5;*/
     height: 46px;
-    width: 700px;
+    width: 584px;
+    margin-top: -3px;
 }
 
 .glass{
@@ -87,7 +96,7 @@ picture{
 
 .search-text{
     display: inline-block;
-    width: 443px;
+    width: auto;
     /*border: none;*/
 }
 
