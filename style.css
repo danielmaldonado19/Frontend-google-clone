@@ -81,23 +81,28 @@ picture{
 .search-engine{
     display: flex;
     justify-content: center;
+    align-items: center;
     border-style: solid;
     border-width: 1px;
     border-radius: 24px;
-    /*border-color: #dfe1e5;*/
+    border-color: #dfe1e5;
     height: 46px;
     width: 584px;
     margin-top: -3px;
+    padding-top: 1px;
 }
 
 .glass{
-    width: 20px;
+    width: 16px;
+    margin-left: -40px;
 }
 
 .search-text{
     display: inline-block;
     width: auto;
-    /*border: none;*/
+    height: 34px;
+    width: 443px;
+    border: none;
 }
 
 .google-mic{
@@ -110,13 +115,18 @@ picture{
 .buttons{
     display: inline-block;
     text-align: center;
+    margin-top: 16px;
     padding-bottom: 20px;
 }
 
 .search-button{
     font-size: 1.4rem;
     width: auto;
-    height: auto;
+    height: 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f8f9fa;
+    background-color: #f8f9fa;
     padding: 0 16px;
     margin: 11px 4px;
 }
@@ -124,7 +134,11 @@ picture{
 .lucky-button {
     font-size: 1.4rem;
     width: auto;
-    height: auto;
+    height: 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f8f9fa;
+    background-color: #f8f9fa;
     padding: 0 16px;
     margin: 11px 4px;
 }
@@ -132,9 +146,15 @@ picture{
 .language{
     display: inline-block;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     width: auto;
     height: 224px;
+    transform: translateX(-1px);
+    transform: translateY(-2px);
+}
+
+.language a{
+    margin-left: 3px;
 }
 
 /*FOOTER*/
