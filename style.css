@@ -158,22 +158,34 @@ footer {
     flex-direction: column;
     margin-top: 15px;
     font-size: 0.9rem;
-}
-
-.footer-box {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 20px;
+    color: #70757a;
 }
 
 .country{
-    font-size: 1.6em;
+    font-size: 1.7em;
     padding: 12px 30px;
-    background: #ab5424;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-box {
+    padding-top: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box2 {
+    display: flex;
 }
 
 .footer-box a {
     text-decoration: none;
-    font-size: 1.6em;
     padding: 15px;
+    font-size: 1.6em;
+    color: #70757a;
+
 }
