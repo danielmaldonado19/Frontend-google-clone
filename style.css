@@ -170,8 +170,9 @@ footer {
 .footer-box {
     padding-top: 3px;
     display: flex;
-    justify-content: space-evenly;
-    height: 50px;
+    justify-content: space-between;
+    height: 45px;
+    margin: 1px;
 }
 
 .box1 {
