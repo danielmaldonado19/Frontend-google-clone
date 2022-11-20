@@ -63,16 +63,9 @@ picture{
     width: 443px;
 }
 
-/*.search-field{
-    display: inline-block;
-    margin-top: -6px;
-    height: 46px;
-    width: 582px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    border-radius: 24px;
-    border: 1px solid #dfe1e5;
-}*/
+
+
+/*SEARCH ENGINE*/
 
 .search-engine-space{
     margin: 0 auto;
@@ -83,13 +76,13 @@ picture{
     justify-content: center;
     align-items: center;
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
     border-radius: 24px;
     border-color: #dfe1e5;
     height: 46px;
     width: 584px;
     margin-top: -3px;
-    padding-top: 1px;
+    padding-top: 2px;
 }
 
 .glass{
@@ -163,6 +156,8 @@ picture{
 footer {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
+    font-size: 0.9rem;
 }
 
 .footer-box {
@@ -173,7 +168,8 @@ footer {
 
 .country{
     font-size: 1.6em;
-    padding: 15px 30px;
+    padding: 12px 30px;
+    background: #ab5424;
 }
 
 .footer-box a {
